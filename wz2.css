@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px; 
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+a{text-decoration: none; margin-left: 25px;}
+
+
+.piaofu{position: fixed;
+    width: 200px;height: 200px;
+    background-image: radial-gradient(circle,red,green);
+z-index: 0;top: 0px;
+animation: myfirst 10s linear 0s  alternate infinite; /* 名字，时间，（linear）运动时的形状，下一个图形出现的间隔时间 infinite（循环）,alternate(原路返回)*/
+}
+.piaofu img{ border-radius: 50%; width: 200px;height: 200px;}
+
+
+@keyframes myfirst{
+    0%{background: red;left:0px;top:0px; border-radius: 50%;}
+    25%{background: green;left: 300px;top:500px;border-radius: 50%;}
+    50%{background: yellow;left: 600px;top:0px;border-radius: 50%;}
+    100%{background: blue;left:900px ;top:500px;border-radius: 50%;}
+}

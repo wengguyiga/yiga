@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.one{width:100%;height: 800px;
+    background-color: aqua;
+position: relative;
+}
+.two{width: 100%;height: 400px;
+    
+    background-color: black;float: left;
+    }
+.two img{width: 100%;height: 400px;}
+    .three{width: 100%;height: 40px;
+        background-color: blanchedalmond;float: left;
+    }
+    .three li{float: left;margin-left: 120px;
+    list-style: none;
+    text-decoration: none;}
+    .four{width: 50%; height: 400px;
+    background-color: blue;float: left;}
+    .five{width: 50%; height: 400px;background-image: url(../img/16.jpg);
+    float: left;}
+    p{letter-spacing: 2px;text-indent: 2em;}
+    .six{width: 100%;height: 300px;background-color: green;}
+    
+        .sixb{width: 200px;height: 190px; background-color:red ;float: left;
+            margin: 10px;}
+        .sixc{width: 200px;height: 190px; background-color:red ;float: left;
+            margin: 10px;}
+        .sixd{width: 200px;height: 190px; background-color:red ;float: left;
+            margin: 10px;}
+        .sixe{width: 200px;height: 190px; background-color:red ;float: left;
+            margin: 10px;}
+        
+    .seven{width: 100%;height: 300px;background-color: purple;}
+    .sevenb{width: 200px;height: 190px; background-color:red ;float: left;
+        margin: 10px;}
+        .sevenc{width: 200px;height: 190px; background-color:red ;float: left;
+            margin: 10px;}
+            .sevend{width: 200px;height: 190px; background-color:red ;float: left;
+                margin: 10px;}
+                .sevene{width: 200px;height: 190px; background-color:red ;float: left;
+                    margin: 10px;}
+                    a {
+                        text-decoration: none;
+                      }
+                            
+                      .slideshow-container {
+                        position: relative;
+                        max-width: 100%;
+                        margin: auto;
+                      }
+                    
+                      .mySlides {
+                        display: none;
+                      }
+                    
+                      .prev, .next {
+                        position: absolute;
+                        margin-top: -50px;
+                        transform: translateY(-50%);
+                        cursor: pointer;
+                        padding: 16px;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 20px;
+                        transition: 0.6s ease;
+                        border-radius: 0 3px 3px 0;
+                      }
+                    
+                      .next {
+                        right: 0;
+                        border-radius: 3px 0 0 3px;
+                      }
+                    
+                      .prev:hover, .next:hover {
+                        background-color: rgba(0, 0, 0, 0.8);
+                      }
